@@ -1,6 +1,12 @@
 <?php session_start();
     //var_dump($_SESSION['id']);
     //var_dump($_SESSION['name']);
+require_once ("../modele/EventValidator.php");
+require_once("../modele/Validator.php");
+require_once ("../modele/EventCalendar.php");
+require_once ("../modele/Events.php");
+require_once ("../controlleur/leagueControlleur.php");
+require_once ("../controlleur/roomControlleur.php");
 ?>
 <!Doctype html>
 <html>
